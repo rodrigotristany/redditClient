@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+    xmlns:local="clr-namespace:RedditClient.PresenterLayer.View"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    ios:Page.UseSafeArea="true"
+    x:Class="RedditClient.PostPageMaster"
+    Title="Master">
+    <StackLayout>
+        <ListView
+            x:Name="MenuItemsListView" 
+            SeparatorVisibility="None"
+            HasUnevenRows="true"
+            ItemsSource="{Binding MenuItems}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <local:PostItemView/>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
