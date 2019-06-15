@@ -13,6 +13,22 @@
             SeparatorVisibility="None"
             HasUnevenRows="true"
             ItemsSource="{Binding MenuItems}">
+            <ListView.Header>
+                <StackLayout 
+                    HeightRequest="70"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="StartAndExpand"
+                    BackgroundColor="Black"
+                    Opacity="0.9"
+                    Orientation="Horizontal">
+                    <Label 
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="Center"
+                        FontAttributes="Bold"
+                        Text="{StaticResource PostListTitle}"
+                        TextColor="White"/>
+                </StackLayout>
+            </ListView.Header>
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

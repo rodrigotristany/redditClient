@@ -1,0 +1,46 @@
+{
+  "Dev": {
+    "ApiEndpoint": "https://pr-evertec-backend-dev.azurewebsites.net/api/",
+    "AuthEndpoint": "https://pr-evertec-backend-dev.azurewebsites.net/connect/",
+    "KeyAnalytics": "",
+    "FirebaseSenderId": "",
+    "ClientId":  "clientid",
+    "ClientSecret": "secret",
+    "Scope": "offline_access openid",
+    "GrantType": "password",
+    "GrantTypeRefreshToken": "refresh_token"
+  },
+  "Qa": {
+    "ApiEndpoint": "https://pr-evertec-backend-dev.azurewebsites.net/api/",
+    "AuthEndpoint": "https://pr-evertec-backend-dev.azurewebsites.net/connect/",
+    "KeyAnalytics": "",
+    "FirebaseSenderId": "",
+    "ClientId": "clientid",
+    "ClientSecret": "secret",
+    "Scope": "offline_access openid",
+    "GrantType": "password",
+    "GrantTypeRefreshToken": "refresh_token"
+  },
+  "Uat": {
+    "ApiEndpoint": "https://pr-evertec-backend-dev.azurewebsites.net/api/",
+    "AuthEndpoint": "https://pr-evertec-backend-dev.azurewebsites.net/connect/",
+    "KeyAnalytics": "",
+    "FirebaseSenderId": "",
+    "ClientId": "clientid",
+    "ClientSecret": "secret",
+    "Scope": "offline_access openid",
+    "GrantType": "password",
+    "GrantTypeRefreshToken": "refresh_token"
+  },
+  "Prod":{
+    "ApiEndpoint": "https://pr-evertec-backend-dev.azurewebsites.net/api/",
+    "AuthEndpoint": "https://pr-evertec-backend-dev.azurewebsites.net/connect/",
+    "KeyAnalytics": "",
+    "FirebaseSenderId": "",
+    "ClientId": "clientid",
+    "ClientSecret": "secret",
+    "Scope": "offline_access openid",
+    "GrantType": "password",
+    "GrantTypeRefreshToken": "refresh_token"
+  }
+}
