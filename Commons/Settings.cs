@@ -51,8 +51,7 @@ namespace Commons
                 AppSettings.AddOrUpdateValue(UserKey, JsonConvert.SerializeObject(value));
             }
         }
+
 		#endregion
-
-
 	}
 }

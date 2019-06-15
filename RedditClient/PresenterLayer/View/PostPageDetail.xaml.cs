@@ -12,6 +12,13 @@ namespace RedditClient
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PostPageDetail : ContentPage
     {
+        public PostPageDetail(string title)
+        {
+            InitializeComponent();
+            this.labelTitle.Text = title;
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
+
         public PostPageDetail()
         {
             InitializeComponent();

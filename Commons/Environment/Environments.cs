@@ -1,4 +1,4 @@
-﻿namespace BaseProject.Commons.Environment
+﻿namespace Commons.Environment
 {
     public class Environments
     {

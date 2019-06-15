@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RedditClient
 {
@@ -11,6 +7,7 @@ namespace RedditClient
         public PostPageMenuItem()
         {
             TargetType = typeof(PostPageDetail);
+            Title = "Placeholder title";
         }
 
         public int Id { get; set; }

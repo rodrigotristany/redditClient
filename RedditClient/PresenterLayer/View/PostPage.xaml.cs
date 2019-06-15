@@ -24,10 +24,7 @@ namespace RedditClient
             if (item == null)
                 return;
 
-            var page = (Page)Activator.CreateInstance(item.TargetType);
-            page.Title = item.Title;
-
-            Detail = page;
+            Detail = new PostPageDetail(item.Title);
             IsPresented = false;
 
             MasterPage.ListView.SelectedItem = null;

@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Commons;
+using Commons.Cache;
+using Commons.Environment;
 using RedditClient.DataLayer.Base.Models.Base;
+using RedditClient.Model.Auth;
 
 namespace RedditClient.DataLayer.Repository.Base
 {

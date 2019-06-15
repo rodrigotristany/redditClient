@@ -32,7 +32,8 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <local:PostItemView/>
+                        <local:PostItemView
+                            PostItem="{Binding ., Source={x:Reference MenuItemsListView}}"/>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>

@@ -13,11 +13,11 @@ namespace RedditClient.PresenterLayer.ViewModel
         {
             MenuItems = new ObservableCollection<PostPageMenuItem>(new[]
             {
-                    new PostPageMenuItem { Id = 0, Title = "Page 1" },
-                    new PostPageMenuItem { Id = 1, Title = "Page 2" },
-                    new PostPageMenuItem { Id = 2, Title = "Page 3" },
-                    new PostPageMenuItem { Id = 3, Title = "Page 4" },
-                    new PostPageMenuItem { Id = 4, Title = "Page 5" },
+                    new PostPageMenuItem { Id = 0, Title = "Post 1" },
+                    new PostPageMenuItem { Id = 1, Title = "Post 2" },
+                    new PostPageMenuItem { Id = 2, Title = "Post 3" },
+                    new PostPageMenuItem { Id = 3, Title = "Post 4" },
+                    new PostPageMenuItem { Id = 4, Title = "Post 5" },
                 });
         }
 

@@ -1,4 +1,6 @@
 ﻿using Commons;
+using Commons.Cache;
+using Commons.Environment;
 using Newtonsoft.Json;
 using RedditClient.DataLayer.Base.Models.Base;
 using System;
@@ -13,6 +15,7 @@ namespace RedditClient.DataLayer.Repository.Base
 	public abstract class BaseService : UtilHandlersHttpClient
     {
         protected HttpClient http;
+        private static AuthenticationService TokenService;
 
         public BaseService(string token = null)
         {

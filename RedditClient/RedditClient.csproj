@@ -28,6 +28,8 @@
     <Folder Include="DataLayer\Repository\" />
     <Folder Include="DataLayer\Repository\Base\" />
     <Folder Include="DataLayer\Model\Base\" />
+    <Folder Include="DataLayer\Model\Auth\" />
+    <Folder Include="DataLayer\Cache\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="PresenterLayer\View\FullSizedPictureView.cs" />
